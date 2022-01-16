@@ -3,8 +3,11 @@
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-color: $component-background-colour;
     border-top: 1px solid $component-border-colour;
     height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
