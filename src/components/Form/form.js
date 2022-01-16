@@ -32,6 +32,7 @@ const FormComponent = (className) => {
           setValidity(true);
         } else {
           console.log('errors')
+          setValidity(false);
         }
         return errors;
       }}
