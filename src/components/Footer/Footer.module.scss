@@ -6,8 +6,8 @@
     align-items: flex-end;
     background-color: $component-background-colour;
     border-top: 1px solid $component-border-colour;
-    height: 30px;
-    position: absolute;
+    max-height: 50px;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }

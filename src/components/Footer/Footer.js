@@ -7,7 +7,7 @@ function Footer({ className, ...props }) {
     const year = new Date().getFullYear();
     return (
         <footer className={classNames(styles.footer, className)} {...props}>
-            Copyright {year}
+            <p>Copyright {year}</p>
         </footer>
     );
 }
