@@ -41,7 +41,9 @@ const FormComponent = (className) => {
         axios.post('https://reqbin.com/echo/post/json', { values })
           .then((response) => {
             console.log(response)
-            window.location = '/form-task/success'
+            if (response.status === 200) {
+              window.location = '/form-task/success'
+            }
           }, 1000)
           .catch(error => {
             console.log(error)
