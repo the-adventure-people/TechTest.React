@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import styles from './Homepage.module.scss';
+import {homepage, content} from './Homepage.module.scss';
 
 function Homepage({ className, ...props }) {
     return (
-        <div className={classNames(styles.homepage, className)} {...props}>
-            <div className={classNames(styles.content, className)} {...props}>
+        <div className={homepage} {...props}>
+            <div className={content}>
                 <h1>Tech Test - React</h1>
             </div>
         </div>
