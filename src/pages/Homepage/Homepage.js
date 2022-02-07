@@ -6,7 +6,7 @@ import styles from './Homepage.module.scss';
 function Homepage({ className, ...props }) {
     return (
         <div className={classNames(styles.homepage, className)} {...props}>
-            <h1>Tech Test - React</h1>
+            <h1>Tech Test - React Dove</h1>
         </div>
     );
 }
