@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.destinationTile {
+    flex-grow: 1;
+    width: 33%;
+    max-width: 33%;
+    padding: $gutter;
+
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
