@@ -2,10 +2,14 @@
 
 
 .apiTask {
-    display: flex;
-    flex-wrap: wrap;
 
     h1{
         width: 100%;
+    }
+
+    .destinations {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -$gutter/2;
     }
 }
