@@ -7,8 +7,8 @@ function DestinationTile({ className, name,  image, country, continent}) {
     
     return (
         <div className={classNames(styles.destinationTile, className)}>
-            <div>
-                <img src={image + "?max-w=400&fit=crop&h=400&max-w=400"} alt={name} />
+            <div className={classNames(styles.wrapper, className)}>
+                <img src={image + "?fit=crop&h=300&max-w=400"} alt={name} />
                 <p>Name: {name}</p>
                 <p>Country: {country}</p>
                 <p>Continent: {continent}</p>

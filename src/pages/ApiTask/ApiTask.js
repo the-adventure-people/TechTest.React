@@ -26,11 +26,13 @@ function ApiTask({ className }) {
             <div className={classNames(styles.apiTask, className)}>
                 <h1>API Task</h1>
 
-                {destinations.map((item, i) => (
-                    <React.Fragment key={i}>
-                        <DestinationTile name={item.name} image={item.image} country={item.country} continetn={item.continent}/>
-                    </React.Fragment>
-                ))}
+                <div className={classNames(styles.destinations, className)}>
+                    {destinations.map((item, i) => (
+                        <React.Fragment key={i}>
+                            <DestinationTile name={item.name} image={item.image} country={item.country} continent={item.continent}/>
+                        </React.Fragment>
+                    ))}
+                </div>
             </div>
         </Layout>
     );

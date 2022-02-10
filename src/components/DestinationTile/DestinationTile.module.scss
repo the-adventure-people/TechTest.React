@@ -4,7 +4,7 @@
     flex-grow: 1;
     width: 33%;
     max-width: 33%;
-    padding: $gutter;
+    padding: $gutter/2;
 
     @media only screen and (max-width: 600px) {
         width: 100%;
@@ -13,5 +13,13 @@
 
     img {
         width: 100%;
+    }
+
+    .wrapper {
+        background-color: $component-background-colour;
+        p {
+            padding: $gutter/2;
+            margin: 0;
+        }
     }
 }
