@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 function Header({ className, ...props }) {
     return (
-        <nav className={classNames(styles.header, className)} {...props}>
+        <nav className={classNames(styles.header, className)}>
             <NavLink to="/" className={styles.title}>
                 Tech Test - React
             </NavLink>

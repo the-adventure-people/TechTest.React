@@ -1,2 +1,15 @@
+@import '../../styles/variables.scss';
+
+
 .apiTask {
+
+    h1{
+        width: 100%;
+    }
+
+    .destinations {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -$gutter/2;
+    }
 }

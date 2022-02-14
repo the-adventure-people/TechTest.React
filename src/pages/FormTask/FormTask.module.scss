@@ -1,2 +1,15 @@
 .formTask {
+    .error {
+        color: red;
+    }
+
+    label {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    input {
+        margin:0 10px 20px 0;
+    }
 }
