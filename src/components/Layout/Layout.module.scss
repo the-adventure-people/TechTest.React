@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.container {
+  margin: 0 20px 50px 20px;
+  flex-direction: row;
+
+  @media (min-width: $max-width) {
+    margin: 0 auto 50px;
+  }
+  max-width: $max-width;
+  
+}
