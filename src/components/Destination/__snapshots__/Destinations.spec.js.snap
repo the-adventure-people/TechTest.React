@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Destination component Should render the card 1`] = `
+<body>
+  <div>
+    <div
+      class="tile"
+    >
+      <img
+        alt="Cambodia"
+        src="https://imgix.cosmicjs.com/06e2bcd0-d2e4-11e9-9ea8-2b9d842385af-the-adventure-people-destination-cambodia.jpg?auto=compress&auto=format&fit=crop&h=400&max-w=400"
+      />
+      <h2>
+        Angkor Wat
+      </h2>
+      <p>
+        Cambodia
+      </p>
+      <p>
+        Asia
+      </p>
+    </div>
+  </div>
+</body>
+`;

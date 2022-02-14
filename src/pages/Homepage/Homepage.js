@@ -1,18 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import styles from './Homepage.module.scss';
+import React from "react";
+import Layout from "../../components/Layout/Layout";
 
-function Homepage({ className, ...props }) {
-    return (
-        <div className={classNames(styles.homepage, className)} {...props}>
-            <h1>Tech Test - React</h1>
-        </div>
-    );
+const Homepage = () => {
+    return <Layout><h1>Homepage</h1></Layout>
 }
-
-Homepage.propTypes = {
-    className: PropTypes.string,
-};
 
 export default Homepage;
